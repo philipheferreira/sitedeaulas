@@ -5,10 +5,12 @@
         style="height: 300px; width: 300px;" class="q-ma-md" />
       <p>Professor: Milton Oliveira</p>
     </div>
-    <h5 class="text-center">sobre</h5>
     <div class="info text-center">
-      <p>Estudo a um tempo como a matemática afeta a aprendizagem e sua importância dentro do estudo geral humano. Trabalho com meus alunos dentro da perspectiva de auxiliá-los no contato com a disciplina e aprimoramento pessoal</p>
-      <p>Formação:Licencitura plena em matemática na UFPA em 2019</p>
+      <h5 class="text-center">sobre</h5>
+      <p>Estudo a um tempo como a matemática afeta a aprendizagem e sua importância dentro do estudo geral humano.
+        Trabalho com meus alunos dentro da perspectiva de auxiliá-los no contato com a disciplina e aprimoramento pessoal
+      </p>
+      <p>Formação: licenciatura plena em matemática na UFPA em 2019</p>
     </div>
     <div class="q-pa-md">
       <q-table title="Disponibilidade de Horario" :rows="rows" :columns="columns" row-key="name" hide-bottom />
@@ -103,7 +105,8 @@ export default defineComponent({
 </script>
 
 <style>
-  .info{
-    margin: 5px 300px;
-  }
+.info {
+  margin: 0px 150px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
 </style>
