@@ -16,7 +16,7 @@
         </q-card-section>
       </q-card>
       <q-card class="my-card q-ma-md">
-        <q-video src="https://www.youtube.com/embed/k3_tw44QsZQ?rel=0" />
+        <q-video src="https://www.youtube.com/embed/GrqMumngTvc" />
 
         <q-card-section>
           <div class="text-h6">Aula 02</div>

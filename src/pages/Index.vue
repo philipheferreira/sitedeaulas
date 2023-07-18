@@ -5,6 +5,11 @@
         style="height: 300px; width: 300px;" class="q-ma-md" />
       <p>Professor: Milton Nascimento</p>
     </div>
+    <h5 class="text-center">sobre</h5>
+    <div class="info text-center">
+      <p>Nome:</p>
+      <p>Formação:</p>
+    </div>
     <div class="q-pa-md">
       <q-table title="Disponibilidade de Horario" :rows="rows" :columns="columns" row-key="name" hide-bottom />
     </div>
@@ -96,3 +101,9 @@ export default defineComponent({
   }
 });
 </script>
+
+<style>
+  .info{
+    margin: 5px 300px;
+  }
+</style>
