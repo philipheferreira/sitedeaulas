@@ -3,12 +3,12 @@
     <div class="column items-center">
       <img alt="Quasar logo" src="https://www.unijui.edu.br/arquivos/tinyMCE4/comunica1/rotina%20de%20estudos%202023.png"
         style="height: 300px; width: 300px;" class="q-ma-md" />
-      <p>Professor: Milton Nascimento</p>
+      <p>Professor: Milton Oliveira</p>
     </div>
     <h5 class="text-center">sobre</h5>
     <div class="info text-center">
-      <p>Nome:</p>
-      <p>Formação:</p>
+      <p>Estudo a um tempo como a matemática afeta a aprendizagem e sua importância dentro do estudo geral humano. Trabalho com meus alunos dentro da perspectiva de auxiliá-los no contato com a disciplina e aprimoramento pessoal</p>
+      <p>Formação:Licencitura plena em matemática na UFPA em 2019</p>
     </div>
     <div class="q-pa-md">
       <q-table title="Disponibilidade de Horario" :rows="rows" :columns="columns" row-key="name" hide-bottom />
