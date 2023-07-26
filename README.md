@@ -14,31 +14,19 @@ Insira um gif ou um link de alguma demonstração
 
 ## Comandos de configurações do ambiente
 
-### Install the dependencies
+### Instalar dependencias
 
 ```bash
-yarn
+npm install
 ```
 
-### Start the app in development mode (hot-code reloading, error reporting, etc.)
+### Inicializar o projeto em modo desenvolvimento
 
 ```bash
 quasar dev
 ```
 
-### Lint the files
-
-```bash
-yarn lint
-```
-
-### Format the files
-
-```bash
-yarn format
-```
-
-### Build the app for production
+### Montar o app para produção
 
 ```bash
 quasar build
