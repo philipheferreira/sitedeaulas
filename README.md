@@ -1,8 +1,20 @@
-# Quasar App (sitedeaulas)
+# Site de aulas de Matematica
 
-A Quasar Framework app
+Site criado com o intuito de divulgar as aulas do professor Milton Oliveira e colocar em pratica conhecimentos e conceitos de programação frontend adquiridos no meu ambiente de trabalho
 
-## Install the dependencies
+## Tecnologias utilizadas
+
+**Front-end:** Vue, Quasar
+
+**Linguagens utilizadas:** Html, CSS, Javascript
+
+## Site no Gitpages
+
+Insira um gif ou um link de alguma demonstração
+
+## Comandos de configurações do ambiente
+
+### Install the dependencies
 
 ```bash
 yarn
@@ -31,7 +43,3 @@ yarn format
 ```bash
 quasar build
 ```
-
-### Customize the configuration
-
-See [Configuring quasar.conf.js](https://quasar.dev/quasar-cli/quasar-conf-js).
