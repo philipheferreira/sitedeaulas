@@ -1,6 +1,9 @@
 <template>
   <div class="column">
-    <p class="q-ma-md column items-center">Algumas Aulas</p>
+    <div class="q-ma-md column items-center">
+      <!--<p class=" info">Aulas do professor Milton Oliveira postadas no canal
+        do youtube e compartilhadas neste reposritorio</p>-->
+    </div>
     <div class="row q-ma-md">
       <q-card class="my-card q-ma-md">
         <q-video src="https://www.youtube.com/embed/iumsSe2783I" />
@@ -81,5 +84,12 @@ export default {
 .my-card {
   width: 100%;
   max-width: 300px;
+}
+
+.info {
+  padding: 0px 20px;
+  border: 1px solid #f5f5f5;
+  border-radius: 15px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 }
 </style>
