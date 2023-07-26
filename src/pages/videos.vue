@@ -88,7 +88,7 @@ export default {
 
 .info {
   padding: 0px 20px;
-  border: 1px solid #f5f5f5;
+  border: 1px solid #cccccc;
   border-radius: 15px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 }
