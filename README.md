@@ -10,7 +10,7 @@ Site criado com o intuito de divulgar as aulas do professor Milton Oliveira e co
 
 ## Site no Gitpages
 
-Insira um gif ou um link de alguma demonstração
+https://philipheferreira.github.io/sitedeaulas/#/
 
 ## Comandos de configurações do ambiente
 
