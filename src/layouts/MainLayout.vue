@@ -15,7 +15,7 @@
         <q-item-label header> Menu </q-item-label>
         <div class="row justify-center">
           <q-avatar class="q-ma-md" size="200px">
-            <img :src="url" spinner-color="white" />
+            <img src="../img/LogoMilton.jpeg" spinner-color="white" />
           </q-avatar>
         </div>
         <EssentialLink v-for="link in essentialLinks" :key="link.title" v-bind="link" />

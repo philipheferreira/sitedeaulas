@@ -3,9 +3,7 @@
     <div class="info q-ma-lg">
       <h5 class="text-center">Professor Milton Oliveira</h5>
       <div class="column items-center">
-        <img alt="Quasar logo"
-          src="https://www.unijui.edu.br/arquivos/tinyMCE4/comunica1/rotina%20de%20estudos%202023.png"
-          style="height: 300px; width: 300px;" class="q-ma-md" />
+        <img alt="Quasar logo" src="../img/FotoMilton.jpeg" style="height: 300px; width: 300px;" class="q-ma-md" />
       </div>
       <p class="texto">Estudo a um tempo como a matemática afeta a aprendizagem e sua importância dentro do estudo geral
         humano.
