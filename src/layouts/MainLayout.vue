@@ -10,7 +10,7 @@
       </q-toolbar>
     </q-header>
 
-    <q-drawer v-model="leftDrawerOpen" show-if-above bordered>
+    <q-drawer v-model="leftDrawerOpen" show-if-above style="background-color: #3F51B5;">
       <q-list>
         <q-item-label header> Menu </q-item-label>
         <div class="row justify-center">

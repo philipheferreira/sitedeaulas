@@ -1,12 +1,12 @@
 <template>
   <q-item clickable :to="transacoes">
     <q-item-section v-if="icon" avatar>
-      <q-icon :name="icon" clickable :to="transacoes" />
+      <q-icon style="color: #2196F3;" :name="icon" clickable :to="transacoes" />
     </q-item-section>
 
     <q-item-section>
-      <q-item-label>{{ title }}</q-item-label>
-      <q-item-label caption>
+      <q-item-label style="color: #f5f5f5;">{{ title }}</q-item-label>
+      <q-item-label style="color: #f5f5f5;" caption>
         {{ caption }}
       </q-item-label>
     </q-item-section>
