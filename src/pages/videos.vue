@@ -5,78 +5,34 @@
         do youtube e compartilhadas neste reposritorio</p>-->
     </div>
     <div class="row q-ma-md">
-      <q-card class="my-card q-ma-md">
-        <q-video src="https://www.youtube.com/embed/iumsSe2783I" />
+      <card-aula site="https://www.youtube.com/embed/iumsSe2783I" titulo="Aula 01" autor="By Prof. Milton Oliveira" sobre="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+          eiusmod tempor incididunt ut labore et dolore magna aliqua."></card-aula>
 
-        <q-card-section>
-          <div class="text-h6">Aula 01</div>
-          <div class="text-subtitle2">By Prof. Milton Oliveira</div>
-        </q-card-section>
+      <card-aula site="https://www.youtube.com/embed/GrqMumngTvc" titulo="Aula 02" autor="By Prof. Milton Oliveira" sobre="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+          eiusmod tempor incididunt ut labore et dolore magna aliqua."></card-aula>
 
-        <q-card-section class="q-pt-none">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua.
-        </q-card-section>
-      </q-card>
-      <q-card class="my-card q-ma-md">
-        <q-video src="https://www.youtube.com/embed/GrqMumngTvc" />
+      <card-aula site="https://www.youtube.com/embed/k3_tw44QsZQ?rel=0" titulo="Aula 03" autor="By Prof. Milton Oliveira"
+        sobre="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+          eiusmod tempor incididunt ut labore et dolore magna aliqua."></card-aula>
 
-        <q-card-section>
-          <div class="text-h6">Aula 02</div>
-          <div class="text-subtitle2">By Prof. Milton Oliveira</div>
-        </q-card-section>
+      <card-aula site="https://www.youtube.com/embed/k3_tw44QsZQ?rel=0" titulo="Aula 04" autor="By Prof. Milton Oliveira"
+        sobre="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+          eiusmod tempor incididunt ut labore et dolore magna aliqua."></card-aula>
 
-        <q-card-section class="q-pt-none">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua.
-        </q-card-section>
-      </q-card>
-      <q-card class="my-card q-ma-md">
-        <q-video src="https://www.youtube.com/embed/k3_tw44QsZQ?rel=0" />
-
-        <q-card-section>
-          <div class="text-h6">Aula 03</div>
-          <div class="text-subtitle2">By Prof. Milton Oliveira</div>
-        </q-card-section>
-
-        <q-card-section class="q-pt-none">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua.
-        </q-card-section>
-      </q-card>
-      <q-card class="my-card q-ma-md">
-        <q-video src="https://www.youtube.com/embed/k3_tw44QsZQ?rel=0" />
-
-        <q-card-section>
-          <div class="text-h6">Aula 04</div>
-          <div class="text-subtitle2">By Prof. Milton Oliveira</div>
-        </q-card-section>
-
-        <q-card-section class="q-pt-none">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua.
-        </q-card-section>
-      </q-card>
-      <q-card class="my-card q-ma-md">
-        <q-video src="https://www.youtube.com/embed/k3_tw44QsZQ?rel=0" />
-
-        <q-card-section>
-          <div class="text-h6">Aula 05</div>
-          <div class="text-subtitle2">By Prof. Milton Oliveira</div>
-        </q-card-section>
-
-        <q-card-section class="q-pt-none">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua.
-        </q-card-section>
-      </q-card>
+      <card-aula site="https://www.youtube.com/embed/k3_tw44QsZQ?rel=0" titulo="Aula 05" autor="By Prof. Milton Oliveira"
+        sobre="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+          eiusmod tempor incididunt ut labore et dolore magna aliqua."></card-aula>
     </div>
   </div>
 </template>
 
 <script>
-export default {
+import cardAula from "components/CardAula.vue"
 
+export default {
+  components: {
+    cardAula
+  }
 }
 </script>
 
