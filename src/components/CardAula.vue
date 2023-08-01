@@ -1,5 +1,5 @@
 <template>
-  <q-card class="my-card q-ma-md">
+  <q-card class="my-card q-ma-xs">
     <q-video :src=site />
 
     <q-card-section>

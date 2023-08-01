@@ -5,11 +5,11 @@
         do youtube e compartilhadas neste reposritorio</p>-->
     </div>
     <div class="row q-ma-md">
-      <card-aula site="https://www.youtube.com/embed/iumsSe2783I" titulo="Aula 01" autor="By Prof. Milton Oliveira" sobre="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua."></card-aula>
+      <card-aula site="https://www.youtube.com/embed/iumsSe2783I" titulo="Aula 01" autor="By Prof. Milton Oliveira"
+        sobre="O estudo não depende somente do material que escolhe e das horas que disponibiliza. Seja mais eficiente no estudo da matemática"></card-aula>
 
-      <card-aula site="https://www.youtube.com/embed/GrqMumngTvc" titulo="Aula 02" autor="By Prof. Milton Oliveira" sobre="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua."></card-aula>
+      <card-aula site="https://www.youtube.com/embed/GrqMumngTvc" titulo="Aula 02" autor="By Prof. Milton Oliveira"
+        sobre="Essa questão causa dificuldade quando estamos acostumado a achar ângulo por ângulo para realizar as operações com eles, nessa questão é um pouco diferente"></card-aula>
 
       <card-aula site="https://www.youtube.com/embed/k3_tw44QsZQ?rel=0" titulo="Aula 03" autor="By Prof. Milton Oliveira"
         sobre="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
