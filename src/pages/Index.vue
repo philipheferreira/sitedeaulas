@@ -1,15 +1,18 @@
 <template>
-  <q-page class="">
+  <q-page>
     <div class="info q-ma-lg">
       <h5 class="text-center">Professor Milton Oliveira</h5>
-      <div class="column items-center">
-        <img alt="Quasar logo" src="../img/FotoMilton.jpeg" style="height: 300px; width: 300px;" class="q-ma-md" />
+      <div class="row items-center">
+        <img class="col-6 q-ma-sm" alt="Quasar logo" src="../img/FotoMilton.jpeg" style="height: 250px; width: 200px;" />
+        <p class="texto col">Estudo a um tempo como a matemática afeta a aprendizagem e sua importância dentro do estudo
+          geral
+          humano.
+          Trabalho com meus alunos dentro da perspectiva de auxiliá-los no contato com a disciplina e aprimoramento
+          pessoal.<br />
+          <strong>Formação:</strong> Licenciatura plena em matemática na UFPA em 2019
+        </p>
       </div>
-      <p class="texto">Estudo a um tempo como a matemática afeta a aprendizagem e sua importância dentro do estudo geral
-        humano.
-        Trabalho com meus alunos dentro da perspectiva de auxiliá-los no contato com a disciplina e aprimoramento pessoal
-      </p>
-      <p class="texto"><strong>Formação:</strong> Licenciatura plena em matemática na UFPA em 2019</p>
+      <!--    <timeline></timeline> -->
     </div>
     <tabelaHorarios></tabelaHorarios>
   </q-page>
@@ -17,12 +20,14 @@
 
 <script>
 import { defineComponent } from "vue";
-import tabelaHorarios from "components/TabelaHorarios.vue"
+import tabelaHorarios from "components/TabelaHorarios.vue";
+//import timeline from "components/TimeLine.vue";
 
 export default defineComponent({
   name: "PageIndex",
   components: {
-    tabelaHorarios
+    tabelaHorarios,
+    //    timeline
   }
 });
 </script>
