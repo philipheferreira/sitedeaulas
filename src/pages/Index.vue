@@ -12,7 +12,8 @@
           <strong>Formação:</strong> Licenciatura plena em matemática na UFPA em 2019
         </p>
       </div>
-      <!--    <timeline></timeline> -->
+      <timeline></timeline>
+      <p>arroz</p>
     </div>
     <tabelaHorarios></tabelaHorarios>
   </q-page>
@@ -21,13 +22,13 @@
 <script>
 import { defineComponent } from "vue";
 import tabelaHorarios from "components/TabelaHorarios.vue";
-//import timeline from "components/TimeLine.vue";
+import timeline from "components/TimeLine.vue";
 
 export default defineComponent({
   name: "PageIndex",
   components: {
     tabelaHorarios,
-    //    timeline
+    timeline
   }
 });
 </script>

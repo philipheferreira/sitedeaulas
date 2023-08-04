@@ -3,7 +3,7 @@
     <div class="resume">
       <div class="func">
         <div class="work">
-          <h3><i class="fa fa-briefcase"></i>Experience</h3>
+          <h3><i class="fa fa-briefcase"></i>Experiencia de trabalho</h3>
           <ul>
             <li><span>Technical Consultant -<br>Web Design</span><small>Fiserv</small><small>Apr 2018 - Now</small></li>
             <li><span>Web Designer</span><small>Lynden</small><small>Jan 2018 - Apr 2018</small></li>
@@ -11,7 +11,7 @@
           </ul>
         </div>
         <div class="edu">
-          <h3><i class="fa fa-graduation-cap"></i>Education</h3>
+          <h3><i class="fa fa-graduation-cap"></i>Experiencia na area da educação</h3>
           <ul>
             <li><span>Bachelor of Science<br>Web Design and Development</span><small>BYU-Idaho</small><small>Jan. 2016 -
                 Apr. 2018</small></li>
@@ -32,9 +32,7 @@ export default {
 }
 </script>
 
-<style>
-@import url("https://fonts.googleapis.com/css?family=Montserrat");
-
+<style scoped>
 /*
 $darkest-blue: #1a237e;
 $darker-blue: #283593;
@@ -51,33 +49,6 @@ $dark-pink: #ad1457;
 $light-pink: #d81b60;
 */
 
-* {
-  outline: none;
-}
-
-*,
-*:before,
-*:after {
-  -webkit-box-sizing: inherit;
-  -moz-box-sizing: inherit;
-  box-sizing: inherit;
-}
-
-html,
-body {
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-  -webkit-transition: 0.5s;
-  transition: 0.5s;
-  background: #ffffff;
-  cursor: default;
-  font-family: "Montserrat", sans-serif;
-  font-size: 16px;
-}
-
 a {
   text-decoration: none;
   color: #ffffff;
@@ -90,7 +61,7 @@ ul {
   padding: 0;
 }
 
-h2 {}
+/*h2 {} */
 
 h3 {
   color: #ffb300;
@@ -100,11 +71,10 @@ h3 {
 }
 
 .resume {
-  width: 960px;
+  width: 100%;
   background: #1a237e;
   color: #ffffff;
   margin: 20px auto;
-  box-shadow: 10px 10px #0e1442;
   position: relative;
   display: flex;
 }
@@ -189,7 +159,7 @@ h3 {
 
 @keyframes circle {
   from {
-    box-shadow: 0 0 0 0px #fdd835;
+    box-shadow: 0 0 0 0px #ffb300;
   }
 
   to {
