@@ -94,7 +94,6 @@ h3 {
 
 .resume .func {
   width: 100%;
-  height: 100%;
   padding: 30px;
 }
 
@@ -119,7 +118,6 @@ h3 {
   color: #283593;
   background: #ffb300;
   width: 42px;
-  height: 42px;
   font-size: 20px;
   line-height: 42px;
   border-radius: 50%;
@@ -230,53 +228,5 @@ h3 {
   width: 48%;
   background: #283593;
   padding: 15px;
-}
-
-.resume .func .skills-prog {
-  clear: both;
-  background: #283593;
-  padding: 15px;
-}
-
-.resume .func .skills-prog ul {
-  margin-left: 15px;
-}
-
-.resume .func .skills-prog ul li {
-  margin-bottom: 8px;
-  display: flex;
-  align-items: center;
-  transition-duration: 0.3s;
-}
-
-.resume .func .skills-prog ul li:hover {
-  color: #fdd835;
-}
-
-.resume .func .skills-prog ul li:hover .skills-bar .bar {
-  background: #fdd835;
-  box-shadow: 0 0 0 1px #fdd835;
-}
-
-.resume .func .skills-prog ul li span {
-  display: block;
-  width: 120px;
-}
-
-.resume .func .skills-prog ul li .skills-bar {
-  background: #ffffff;
-  height: 2px;
-  width: calc(100% - 120px);
-  position: relative;
-  border-radius: 2px;
-}
-
-.resume .func .skills-prog ul li .skills-bar .bar {
-  position: absolute;
-  top: -1px;
-  height: 4px;
-  background: #ffb300;
-  box-shadow: 0 0 0 #ffb300;
-  border-radius: 5px;
 }
 </style>
