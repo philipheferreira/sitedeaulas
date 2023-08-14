@@ -2,19 +2,19 @@
   <q-page>
     <div class="info q-ma-lg">
       <h5 class="text-center">Professor Milton Oliveira</h5>
-      <div class="row items-center">
-        <img class="col-6 q-ma-sm imagemMilton" style=" height: 40%;
+      <div class="row justify-center">
+        <img class="q-ma-sm" style=" height: 40%;
   width: 40%;
   max-width: 250px;
   max-height: 350px;" alt="foto 1" src="../img/FotoMilton.jpeg" />
-        <p class="texto col">Estudo a um tempo como a matemática afeta a aprendizagem e sua importância dentro do estudo
-          geral
-          humano.
-          Trabalho com meus alunos dentro da perspectiva de auxiliá-los no contato com a disciplina e aprimoramento
-          pessoal.<br />
-          <strong>Formação:</strong> Licenciatura plena em matemática na UFPA em 2019
-        </p>
       </div>
+      <p class="texto">Estudo a um tempo como a matemática afeta a aprendizagem e sua importância dentro do estudo
+        geral
+        humano.
+        Trabalho com meus alunos dentro da perspectiva de auxiliá-los no contato com a disciplina e aprimoramento
+        pessoal.<br />
+        <strong>Formação:</strong> Licenciatura plena em matemática na UFPA em 2019
+      </p>
       <timeline></timeline>
       <p>informações</p> <!-- as infos da pagina está funcionando com base de uma gambiarra -->
     </div>
