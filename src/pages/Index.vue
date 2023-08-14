@@ -3,7 +3,7 @@
     <div class="info q-ma-lg">
       <h5 class="text-center">Professor Milton Oliveira</h5>
       <div class="row items-center">
-        <img class="col-6 q-ma-sm" alt="Quasar logo" src="../img/FotoMilton.jpeg" style="height: 250px; width: 200px;" />
+        <img class="col-6 q-ma-sm imagemMilton" style="" alt="foto 1" src="../img/FotoMilton.jpeg" />
         <p class="texto col">Estudo a um tempo como a matemática afeta a aprendizagem e sua importância dentro do estudo
           geral
           humano.
@@ -47,5 +47,12 @@ body {
 
 .texto {
   color: #5c5c5c;
+}
+
+.imagemMilton {
+  height: 15%;
+  width: 15%;
+  max-width: 250px;
+  max-height: 350px;
 }
 </style>
