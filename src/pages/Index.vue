@@ -16,10 +16,10 @@
         <strong>Formação:</strong> Licenciatura plena em matemática na UFPA em 2019
       </p>
     </div>
+    <tabelaHorarios></tabelaHorarios>
     <div class="info q-ma-lg">
       <timeline></timeline>
     </div>
-    <tabelaHorarios></tabelaHorarios>
   </q-page>
 </template>
 
